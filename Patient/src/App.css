@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.page {
+  padding: 1rem 2rem;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 0.6rem;
+  margin: 1rem;
+  border-radius: 30px;
+  border:4px solid whitesmoke
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.5rem;
+}
+
+.patient-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  border:2px solid white;
+}
+
+.patient-card button {
+  margin-top: 0.5rem;
+  /* background: #007bff; */
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.patient-card button:hover {
+  background: green;
+}
+
+.add-form input {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+
+.add-form button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius:5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.btn{
+  background-color: transparent;
+  border: 1px solid white;
+}
+.btn:hover{
+  background-color: green;
+}
