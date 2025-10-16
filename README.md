@@ -3,16 +3,13 @@
 ## Screenshots
 
 ### 1. Home Page
-![Home Page](screenshots/home.png)
+![Home Page](Patient/screenshots/home.png)
 
 ### 2. Patients Page
-![Patients Page](screenshots/patients.png)
+![Patients Page](Patient/screenshots/Patient.png)
 
 ### 3. Add Patient Form
-![Add Patient Form](screenshots/add_patient.png)
-
-### 4. Patient Details Modal
-![Patient Details Modal](screenshots/patient_details.png)
+![Add Patient Form](Patient/screenshots/AddNewP.png)
 
 ## Overview
 A simple React-based web application to manage patient records.  
@@ -42,4 +39,5 @@ npm install
 ```bash
 npm run build
 ```
+
 
